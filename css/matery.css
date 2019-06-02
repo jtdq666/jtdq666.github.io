@@ -201,7 +201,7 @@ nav {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 7px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-#listId {
+.hide-on-med-and-down {
     width : 140px;
 }
 
@@ -212,7 +212,7 @@ nav {
     color: #0D0A0A;
 }
 
-#listId:hover .subMenu{
+.hide-on-med-and-down:hover .subMenu{
     /*background-color: rgba(0, 255, 0, 1);*/
     width : 270px;
     background-color: rgba(255, 255, 255, 0.6);
