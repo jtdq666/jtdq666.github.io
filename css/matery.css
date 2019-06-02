@@ -201,18 +201,18 @@ nav {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 7px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-.hide-on-med-and-down {
+header .hide-on-med-and-down {
     width : 140px;
 }
 
-.subMenu{
+header .subMenu{
     visibility: hidden;
     height: 50px;
     text-align: start;
     color: #0D0A0A;
 }
 
-.hide-on-med-and-down:hover .subMenu{
+header .hide-on-med-and-down:hover .subMenu{
     /*background-color: rgba(0, 255, 0, 1);*/
     width : 270px;
     background-color: rgba(255, 255, 255, 0.6);
@@ -225,7 +225,7 @@ nav {
     transition: width 2.0s ease-in-out;
 }
 
-.subMenu:hover
+header .subMenu:hover
 {
     background-color: rgba(0, 0, 100, 0.5);
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 100, 0.2),  2px 2px 2px 2px rgba(0, 0, 100, 0.2);
