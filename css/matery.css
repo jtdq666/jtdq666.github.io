@@ -206,8 +206,10 @@ header .hide-on-med-and-down {
 }
 
 header .subMenu{
-    visibility: hidden;
-    height: 50px;
+    visibility: collapse;
+    display: none;
+    height: 60px;
+    vertical-align: middle;
     text-align: start;
     color: #0D0A0A;
 }
@@ -215,8 +217,9 @@ header .subMenu{
 header .hide-on-med-and-down:hover .subMenu{
     /*background-color: rgba(0, 255, 0, 1);*/
     width : 270px;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.9);
     visibility: visible;
+    display: block;
     text-align: start;
     -webkit-transition: width 2.0s ease-in-out;
     -moz-transition: width 2.0s ease-in-out;
@@ -227,10 +230,13 @@ header .hide-on-med-and-down:hover .subMenu{
 
 header .subMenu:hover
 {
-    background-color: rgba(0, 0, 100, 0.5);
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 100, 0.2),  2px 2px 2px 2px rgba(0, 0, 100, 0.2);
+    background-color: rgba(0, 0, 100, 0.6);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 100, 0.4),  2px 2px 2px 2px rgba(0, 0, 100, 0.4);
     visibility: visible;
     text-align: start;
+    color: #1C1C1C;
+    text-emphasis-color: #1C1C1C;
+    -webkit-text-emphasis-color: #1C1C1C;
     -webkit-transition: width 2.0s ease-in-out;
     -moz-transition: width 2.0s ease-in-out;
     -ms-transition: width 2.0s ease-in-out;
