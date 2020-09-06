@@ -1,4 +1,4 @@
-# jtdq666.github.io
+# jtdq.github.io
 page
 
 update readme
